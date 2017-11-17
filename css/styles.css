@@ -1,17 +1,9 @@
 /*
 REQUIREMENTS
 
-x border-box
-x float
 display: block
-x display: inline
-x centered content
-x pseudo-element
-x pseudo-class
-x clear-fix
-positional selector
-selector combinator
 
+ clear-fix
 */
 
 *, *::before, *::after{

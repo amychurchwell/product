@@ -12,4 +12,44 @@ clear-fix
 positional selector
 selector combinator
 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
 */
+
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+
+table{
+  border: 1px solid black;
+  margin: 9px;
+  font-family: sans-serif;
+  border-collapse: collapse;
+}
+
+tr{
+  padding: 15px;
+  border-bottom: 1pt solid black;
+  text-align: left;
+}
+
+
+td{
+  margin: 15px;
+}
+
+tbody>tr{
+  background-color: gray;
+  text-align: right;
+}
+
+td:nth-child(2){
+  background-color: pink;
+  text-align: left;
+}
+
+td:first-child{
+  padding: 0;
+  font-weight: bold;
+  background-color: pink;
+}

@@ -14,7 +14,14 @@ A single-page site that showcases a product for sale.
 |---|---|---|
 | BOX-SIZING  | DESC  | I  |
 | FLOAT  | DESC  | I  |
-|   TERM   | DESC  | I  |
+|   DISPLAY: BLOCK   | DESC  | I  |
+|   DISPLAY: INLINE   | DESC  | I  |
+|   DISPLAY: BLOCK   | DESC  | I  |
+|   DISPLAY: BLOCK   | DESC  | I  |
+|   DISPLAY: BLOCK   | DESC  | I  |
+|   DISPLAY: BLOCK   | DESC  | I  |
+|   DISPLAY: BLOCK   | DESC  | I  |
+|   DISPLAY: BLOCK   | DESC  | I  |
 
 ## Setup/Installation Requirements
 

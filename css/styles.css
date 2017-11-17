@@ -20,36 +20,45 @@ font-family: 'Open Sans', sans-serif;
   box-sizing: border-box;
 }
 
+/*NUTRITION TABLE*/
 table{
-  border: 1px solid black;
   margin: 9px;
   font-family: sans-serif;
   border-collapse: collapse;
-}
-
-tr{
-  padding: 15px;
-  border-bottom: 1pt solid black;
   text-align: left;
 }
 
+tr{
+  border-bottom: 2pt solid black;
+}
+
+th{
+  padding: 9px;
+}
+
+table h1, h2{
+  margin: 0;
+  line-height: 0.5;
+}
+
+thead tr:first-child{
+  border-bottom: 0;
+}
 
 td{
   margin: 15px;
 }
 
 tbody>tr{
-  background-color: gray;
   text-align: right;
 }
 
 td:nth-child(2){
-  background-color: pink;
   text-align: left;
 }
 
 td:first-child{
-  padding: 0;
+  padding: 6px;
   font-weight: bold;
-  background-color: pink;
+  text-align: left;
 }

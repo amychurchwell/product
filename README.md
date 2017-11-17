@@ -19,7 +19,7 @@ A single-page site that showcases a product for sale.
 |   CENTERED CONTENT   | Horizontally centering a block element.  | To center content in this project I often set a defined width on an element and then used margin: auto to divide the margins equally. |
 |   PSEUDO-ELEMENT   | A keyword added to a selector that lets you style a specific part of the selected element(s).  | I used box-sizing: border-box on everything on the page. For simplicity's sake, I used: *, *::before, *::after |
 |   PSEUDO-CLASS   | A special state of an element.  | One example of a use of pseudo-class on this page is the :hover state on gallery images and links.  |
-|   CLEAR-FIX   | Elements after a floating element will flow around it.  | $$$$$$  |
+|   CLEAR-FIX   | Elements after a floating element will flow around it.  | In this situation, clear-fix was not needed. I used overflow: hidden for the image gallery because I wanted a uniform size. |
 |   POSITIONAL SELECTOR   | A pseudo-class that matches one or more elements based on their position among a group of siblings.  | I used positional selectors a lot when styling the nutrition table. For example, I wanted every second table data in a row to align right instead of left: *:nth-child(2)* was used on <td>.  |
 |   SELECTOR COMBINATOR   | A combinator is something that explains the relationship between the selections.  | Selector combinators were used regularly in situations that required more specificity. For example, li a:hover = only list item links in the hover state. |
 

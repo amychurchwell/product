@@ -25,6 +25,7 @@ h3 {
   font-size: 30px;
   line-height: 0;
   color: #80d0de;
+  margin: 5px;
 }
 
 /*HEADER*/
@@ -57,6 +58,12 @@ h3 {
 
 .blue{
   color: #34bfd9;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pink{
+  color: #ff86b1;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #logo h4{
@@ -106,6 +113,12 @@ li a{
 
 li a:hover{
   color: #ff86b1;
+}
+
+.nav::after{
+  content: "";
+  clear: both;
+
 }
 
 
@@ -169,7 +182,7 @@ li a:hover{
 .features{
   font-family: 'Open Sans', sans-serif;
   float: right;
-  padding: 15px;
+  padding: 40px;
   text-align: left;
   width: 55%;
   color: pink;
@@ -180,15 +193,33 @@ li a:hover{
 }
 
 #frame{
-  position: absolute;
   width: 400px;
   position: absolute;
+  transform: rotate(-1deg);
 }
 
 #photo{
   width: 300px;
   margin: 40px;
 }
+
+#picture{
+  text-align: center;
+  margin: 15px;
+}
+
+.features h1{
+  display: inline-block;
+  margin: 10px;
+  color: #ffe977;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.features h1:nth-child(even) {
+  color: #AEADF0;
+}
+
 /*NUTRITION TABLE*/
 
 .nutrition{
@@ -196,6 +227,14 @@ li a:hover{
   border: 2px solid #AEADF0;
   height: 100%;
   width: 40%;
+}
+
+.nutrition p{
+  color: #80d0de;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: lowercase;
+  font-size: 20px;
+  margin-left: 10px;
 }
 
 table{

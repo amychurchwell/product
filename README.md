@@ -14,14 +14,14 @@ A single-page site that showcases a product for sale.
 |---|---|---|
 | BOX-SIZING  | This property tells the browser what parts of the box model should be included in the elements total width and height.  | In this project, I used box-sizing: border-box to move margin and padding inside content so the set width would not be changed.|
 | FLOAT  | This property takes and element out of the normal flow of its containing element, without removing it from the flow entirely. The values specify the direction the element should be moved.  | I used float to determine the position of elements inside their containers. |
-|   DISPLAY: BLOCK   | The element generates a block element box.  | I  |
-|   DISPLAY: INLINE   | The element generates one or more inline element boxes.  | I  |
+|   DISPLAY: BLOCK   | The element generates a block element box.  | $$$$$  |
+|   DISPLAY: INLINE   | The element generates one or more inline element boxes.  | display: inline was used on the list items for the navigation so they would align in a row.  |
 |   CENTERED CONTENT   | DESC  | To center content in this project I often set a defined width on an element and then used margin: auto to divide the margins equally. |
-|   PSEUDO-ELEMENT   | Used to style specified parts of an element.  | I used pseudo-elements a lot when styling the table. For example, I wanted every second table data in a row to align right instead of left: *:nth-child(2)* was used on <td>. |
+|   PSEUDO-ELEMENT   | A keyword added to a selector that lets you style a specific part of the selected element(s).  | I used box-sizing: border-box on everything on the page. For simplicity's sake, I used: *, *::before, *::after |
 |   PSEUDO-CLASS   | A special state of an element.  | One example of a use of pseudo-class on this page is the :hover state on gallery images and links.  |
-|   CLEAR-FIX   | DESC  | I  |
-|   POSITIONAL SELECTOR   | DESC  | I  |
-|   SELECTOR COMBINATOR   | DESC  | I  |
+|   CLEAR-FIX   | Elements after a floating element will flow around it.  | $$$$$$  |
+|   POSITIONAL SELECTOR   | DESC  | I used positional selectors a lot when styling the nutrition table. For example, I wanted every second table data in a row to align right instead of left: *:nth-child(2)* was used on <td>.  |
+|   SELECTOR COMBINATOR   | DESC  | $$$$$$$  |
 
 ## Setup/Installation Requirements
 

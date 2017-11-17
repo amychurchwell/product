@@ -1,12 +1,12 @@
 /*
 REQUIREMENTS
 
-border-box
-float
+x border-box
+x float
 display: block
 display: inline
 centered content
-pseudo-element
+x pseudo-element
 pseudo-class
 clear-fix
 positional selector
@@ -18,6 +18,85 @@ font-family: 'Open Sans', sans-serif;
 
 *, *::before, *::after{
   box-sizing: border-box;
+}
+
+h1{
+  margin: 0;
+}
+
+.header{
+  width: 100%;
+  height: 500px;
+  background-image: url(../img/bear.jpeg);
+  background-repeat: no-repeat;
+  background-color: #f3f4f6;
+  text-align: right;
+}
+
+.header h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #34bfd8;
+}
+
+.header h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ff7e6e;
+}
+
+.about{
+  width: 50%;
+  height: 500px;
+  float: left;
+  padding: 100px;
+  overflow: hidden;
+  position: relative;
+}
+
+.about img{
+  width: 500px;
+  height: auto;
+  filter: hue-rotate(310deg);
+}
+
+
+.about h1{
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ff7e6e;
+  top: 60px;
+}
+
+
+
+.info{
+  float: right;
+  height: 500px;
+  width: 50%;
+  padding: 15px;
+  background-color: pink;
+}
+
+.info h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.gallery{
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.gallery img{
+  display: inline-block;
+  height: 200px;
 }
 
 /*NUTRITION TABLE*/

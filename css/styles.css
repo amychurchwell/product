@@ -3,7 +3,6 @@ REQUIREMENTS
 
 display: block
 
- clear-fix
 */
 
 *, *::before, *::after{
@@ -48,7 +47,6 @@ h3 {
   left: 0;
   top: 0;
   position: absolute;
-  display: inline-block;
 }
 
 #logo img{
@@ -74,6 +72,7 @@ h3 {
   margin: 0;
   padding-left: 10px;
   color: #ff85b1;
+  display: block;
 }
 
 .header h1{
@@ -121,8 +120,6 @@ li a:hover{
 
 }
 
-
-
 /*ABOUT*/
 
 .about{
@@ -131,6 +128,7 @@ li a:hover{
   float: left;
   padding: 15px;
   background-image: url(../img/classy_fabric.png);
+  overflow: hidden;
 }
 
 
@@ -162,10 +160,12 @@ li a:hover{
 /*GALLERY*/
 
 .gallery{
-  margin: 9px;
+  margin: auto;
   overflow: hidden;
-  height: 200px;
+  height: 150px;
   display: inline-block;
+  text-align: center;
+  width: 90%;
 }
 
 .gallery img{
@@ -226,7 +226,7 @@ li a:hover{
   float: left;
   border: 2px solid #AEADF0;
   height: 100%;
-  width: 40%;
+  width: 43%;
 }
 
 .nutrition p{

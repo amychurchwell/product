@@ -26,26 +26,30 @@ p{
   font-family: 'Open Sans', sans-serif;
 }
 
+body{
+
+}
+
 /*HEADER*/
 
 .header{
   width: 100%;
   height: 500px;
-  padding: 40px;
   background-image: url(../img/bear.jpeg);
   background-repeat: no-repeat;
   background-color: #f3f4f6;
   text-align: right;
   font-size: 38px;
   line-height: 1.2;
-
+  padding: 40px;
+  position: relative;
 }
 
 .header h1{
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
-  color: #34bfd8;
+  color: #ff86b1;
   clear: both;
 }
 
@@ -53,12 +57,22 @@ p{
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
-  color: #ff7e6e;
+  color: #80d0de;
+}
+
+.header img{
+  transform: rotate(90deg);
+  position: absolute;
+  left: 35%;
+  top: 20%;
+  width: 138px;
 }
 
 .nav{
   font-family: 'Open Sans', sans-serif;
   margin-left: 20px;
+  float: right;
+  margin: -30px;
 }
 
 li{
@@ -66,63 +80,78 @@ li{
   list-style-image: url(../img/bullet.svg);
   padding-left: 13px;
   margin: 33px;
+}
+
+li a{
   text-transform: lowercase;
   color: #34bfd9;
+  text-decoration: none;
 }
+
+li a:hover{
+  color: #ff86b1;
+}
+
 
 
 /*ABOUT*/
 
 .about{
   width: 50%;
-  height: 500px;
+  height: 600px;
   float: left;
-  padding: 100px;
-  overflow: hidden;
-  position: relative;
-
+  padding: 15px;
+  background-image: url(../img/classy_fabric.png);
 }
 
-.about img{
-  width: 100%;
-  height: auto;
-  filter: hue-rotate(310deg);
-  opacity: 0.5;
-}
 
 /*INFO*/
 
 .info{
   float: right;
-  height: 500px;
+  height: 600px;
   width: 50%;
   padding: 15px;
-  background-color: pink;
+  background-image: url(../img/sprinkles.png);
+  padding: 0;
 }
 
 .info .content{
   width: 500px;
+  height: 100%;
   margin: auto;
+  color: #ff86b1;
+  background-color: white;
+  padding: 50px;
 }
 
 .info h3{
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
+  font-size: 30px;
+  line-height: 0;
+  color: #80d0de;
+}
+
+.info img{
+  width: 100%;
 }
 
 /*GALLERY*/
 
 .gallery{
-  width: 100%;
-  height: 200px;
-  overflow: hidden;
-  background-color: pink;
+  float: right;
+  display: inline-block;
+  width: 45%;
+  /* height: 46%; */
+  /* margin: -3px; */
 }
 
 .gallery img{
-  display: inline-block;
-  height: 200px;
+  margin: auto;
+  /* display: inline-block; */
+  width: 150px;
 }
 
 .gallery img:hover{
@@ -130,17 +159,24 @@ li{
 }
 
 /*NUTRITION TABLE*/
+
+.nutrition{
+  float: left;
+  border: 1px solid white;
+  height: 100%;
+  width: 50%;
+}
+
 table{
-  position: absolute;
-  top: 50px;
+  color: #fd9abd;
   margin: 9px;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   border-collapse: collapse;
   text-align: left;
 }
 
 tr{
-  border-bottom: 2pt solid black;
+  border-bottom: 2pt solid #fff798;
 }
 
 th{
@@ -149,7 +185,7 @@ th{
 
 table h1, h2{
   margin: 0;
-  line-height: 0.5;
+  line-height: 1;
 }
 
 thead tr:first-child{

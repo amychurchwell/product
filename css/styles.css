@@ -23,7 +23,7 @@ h3 {
   text-transform: uppercase;
   font-size: 30px;
   line-height: 0;
-  color: #80d0de;
+  color: #ff74a6;;
   margin: 5px;
 }
 
@@ -40,6 +40,19 @@ h3 {
   line-height: 1.2;
   padding: 40px;
   position: relative;
+}
+
+.header-text{
+  margin-right: 270px;
+}
+
+.line{
+  background-color: #b9b9b9;
+  height: 190px;
+  width: 20px;
+  top: 90px;
+  right: 260px;
+  position: absolute;
 }
 
 #logo{
@@ -127,10 +140,10 @@ li a:hover{
   height: 610px;
   float: left;
   padding: 15px;
-  background-image: url(../img/classy_fabric.png);
   overflow: hidden;
+  background-image: url(../img/paper_fibers.png);
+  border: 8px solid white;
 }
-
 
 /*INFO*/
 
@@ -141,6 +154,7 @@ li a:hover{
   padding: 15px;
   background-image: url(../img/sprinkles.png);
   padding: 0;
+  border-top: 8px solid white;
 }
 
 .info .content{
@@ -160,12 +174,11 @@ li a:hover{
 /*GALLERY*/
 
 .gallery{
-  margin: auto;
   overflow: hidden;
   height: 150px;
   display: inline-block;
   text-align: center;
-  width: 90%;
+  width: 100%;
 }
 
 .gallery img{
@@ -185,7 +198,7 @@ li a:hover{
   padding: 40px;
   text-align: left;
   width: 55%;
-  color: pink;
+  color: #5a5a5a;
   font-size: 20px;
   overflow: hidden;
   height: 100%;
@@ -211,22 +224,25 @@ li a:hover{
 .features h1{
   display: inline-block;
   margin: 10px;
-  color: #ffe977;
+  color: #ff74a6;
   font-size: 20px;
   text-transform: uppercase;
 }
 
 .features h1:nth-child(even) {
-  color: #AEADF0;
+  color: #5a5a5a;
 }
 
 /*NUTRITION TABLE*/
 
 .nutrition{
   float: left;
-  border: 2px solid #AEADF0;
   height: 100%;
-  width: 43%;
+  width: 385px;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  margin-left: 10px;
+  background-image: url(../img/classy_fabric.png);
 }
 
 .nutrition p{

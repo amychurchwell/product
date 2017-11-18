@@ -28,7 +28,7 @@ A single-page site that showcases a product for sale.
 #### GITHUB PAGES
 * Open web browser and go to the [GitHub Pages][4].
 
-[4]: https://amychurchwell.github.io/product/index.html "GitHub Pages"
+[4]: https://amychurchwell.github.io/product/ "GitHub Pages"
 
 ## Known Bugs
 
